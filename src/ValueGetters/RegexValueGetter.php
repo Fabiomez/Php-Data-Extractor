@@ -21,7 +21,7 @@ class RegexValueGetter implements ValueGetterInterface
 		Assert::keyExists($schema, 'pattern');
 		Assert::string($schema['pattern']);
 		Assert::keyExists($schema, 'index');
-		Assert::integer($schema['index']);
+		Assert::integerish($schema['index']);
 
 		if (!preg_match($schema['pattern'], $source, $matches)) {
 			throw new InvalidArgumentException(sprintf(

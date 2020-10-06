@@ -18,9 +18,9 @@ class SubstringValueGetter implements ValueGetterInterface
 	{
 		Assert::string($source);
 		Assert::keyExists($schema, 'start');
-		Assert::integer($schema['start']);
+		Assert::integerish($schema['start']);
 		Assert::keyExists($schema, 'length');
-		Assert::integer($schema['length']);
+		Assert::integerish($schema['length']);
 
 		return substr($source, $schema['start'], $schema['length']);
 	}
