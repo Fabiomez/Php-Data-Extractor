@@ -1,0 +1,27 @@
+{
+    "name": "fmezini/data-extractor",
+    "type": "library",
+    "version": "1",
+    "keywords": ["phpdoc", "data extraction"],
+    "license": "MIT",
+    "description": "Library for data extraction from common resources like string or a CSV row from files",
+    "authors": [
+        {
+            "name": "Fabio Mezini",
+            "email": "fabiomezini@gmail.com"
+        }
+    ],
+    "require": {
+        "phpdocumentor/reflection-docblock": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.4@dev"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Fmezini\\DataExtractor\\": "src/",
+            "Tests\\": "tests/"
+        }
+    }
+}
