@@ -68,7 +68,7 @@ class RegexValueGetterTest extends TestCase
         $extractor = new RegexValueGetter();
 
         $this->expectException(InvalidArgumentException::class);
-        $this->expectExceptionMessage('Expected an integer. Got: string');
+        $this->expectExceptionMessage('Expected an integerish value. Got: string');
 
         $extractor->getValue($schema, $source);
     }

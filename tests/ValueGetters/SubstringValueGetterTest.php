@@ -42,7 +42,7 @@ class SubstringValueGetterTest extends TestCase
 		$extractor = new SubstringValueGetter();
 
 		$this->expectException(InvalidArgumentException::class);
-		$this->expectExceptionMessage('Expected an integer. Got: string');
+		$this->expectExceptionMessage('xpected an integerish value. Got: string');
 
 		$extractor->getValue($schema, $source);
 	}
@@ -68,7 +68,7 @@ class SubstringValueGetterTest extends TestCase
 		$extractor = new SubstringValueGetter();
 
 		$this->expectException(InvalidArgumentException::class);
-		$this->expectExceptionMessage('Expected an integer. Got: string');
+		$this->expectExceptionMessage('xpected an integerish value. Got: string');
 
 		$extractor->getValue($schema, $source);
 	}
