@@ -1,7 +1,6 @@
 {
     "name": "fmezini/data-extractor",
     "type": "library",
-    "version": "1.0.0-dev",
     "keywords": ["phpdoc", "data extraction"],
     "license": "MIT",
     "description": "Library for data extraction from common resources like string or a CSV row from files",
