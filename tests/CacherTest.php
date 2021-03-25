@@ -3,7 +3,7 @@
 namespace Tests;
 
 use PHPUnit\Framework\TestCase;
-use Fmezini\DataExtractor\Cacher;
+use Fabiomez\DataExtractor\Cacher;
 
 class CacherTest extends TestCase
 {

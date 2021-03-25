@@ -2,9 +2,9 @@
 
 namespace Tests;
 
-use Fmezini\DataExtractor\DocBlockParser;
-use Fmezini\DataExtractor\Extractor;
-use Fmezini\DataExtractor\ValueGetters\ValueGetterInterface;
+use Fabiomez\DataExtractor\DocBlockParser;
+use Fabiomez\DataExtractor\Extractor;
+use Fabiomez\DataExtractor\ValueGetters\ValueGetterInterface;
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
 use stdClass;

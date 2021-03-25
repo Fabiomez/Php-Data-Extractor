@@ -4,7 +4,7 @@ namespace Tests\ValueGetters;
 
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
-use Fmezini\DataExtractor\ValueGetters\SubstringValueGetter;
+use Fabiomez\DataExtractor\ValueGetters\SubstringValueGetter;
 
 class SubstringValueGetterTest extends TestCase
 {

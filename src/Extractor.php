@@ -1,9 +1,9 @@
 <?php
 
-namespace Fmezini\DataExtractor;
+namespace Fabiomez\DataExtractor;
 
 use InvalidArgumentException;
-use Fmezini\DataExtractor\ValueGetters\ValueGetterInterface;
+use Fabiomez\DataExtractor\ValueGetters\ValueGetterInterface;
 use UnexpectedValueException;
 
 class Extractor implements ExtractorInterface

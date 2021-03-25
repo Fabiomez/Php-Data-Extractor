@@ -1,10 +1,10 @@
 <?php
 
-namespace Fmezini\DataExtractor;
+namespace Fabiomez\DataExtractor;
 
-use Fmezini\DataExtractor\ValueGetters\ArrayValueGetter;
-use Fmezini\DataExtractor\ValueGetters\RegexValueGetter;
-use Fmezini\DataExtractor\ValueGetters\SubstringValueGetter;
+use Fabiomez\DataExtractor\ValueGetters\ArrayValueGetter;
+use Fabiomez\DataExtractor\ValueGetters\RegexValueGetter;
+use Fabiomez\DataExtractor\ValueGetters\SubstringValueGetter;
 
 class ExtractorFactory
 {

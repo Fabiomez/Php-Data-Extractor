@@ -4,7 +4,7 @@ namespace Tests\ValueGetters;
 
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
-use Fmezini\DataExtractor\ValueGetters\RegexValueGetter;
+use Fabiomez\DataExtractor\ValueGetters\RegexValueGetter;
 
 class RegexValueGetterTest extends TestCase
 {

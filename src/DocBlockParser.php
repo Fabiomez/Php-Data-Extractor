@@ -1,6 +1,6 @@
 <?php
 
-namespace Fmezini\DataExtractor;
+namespace Fabiomez\DataExtractor;
 
 use InvalidArgumentException;
 use ReflectionClass;
@@ -10,7 +10,7 @@ use phpDocumentor\Reflection\DocBlockFactoryInterface;
 class DocBlockParser
 {
 	/**
-	 * @var \fmezini\CacherInterface
+	 * @var \Fabiomez\CacherInterface
 	 */
 	private $cacher;
 

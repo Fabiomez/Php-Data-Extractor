@@ -1,6 +1,6 @@
 <?php
 
-namespace Fmezini\DataExtractor;
+namespace Fabiomez\DataExtractor;
 
 interface ExtractorInterface
 {

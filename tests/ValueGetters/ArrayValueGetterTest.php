@@ -4,7 +4,7 @@ namespace Tests\ValueGetters;
 
 use InvalidArgumentException;
 use PHPUnit\Framework\TestCase;
-use Fmezini\DataExtractor\ValueGetters\ArrayValueGetter;
+use Fabiomez\DataExtractor\ValueGetters\ArrayValueGetter;
 
 class ArrayValueGetterTest extends TestCase
 {

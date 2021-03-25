@@ -3,7 +3,7 @@
 namespace Tests;
 
 use PHPUnit\Framework\TestCase;
-use Fmezini\DataExtractor\DocBlockParser;
+use Fabiomez\DataExtractor\DocBlockParser;
 
 class DocBlockParserTest extends TestCase
 {

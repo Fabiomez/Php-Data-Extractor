@@ -7,9 +7,9 @@ So, I decided to write this library that works with objects like models for extr
 
 ## Instalation
 
-Execute `composer require fmezini/data-extractor`
+Execute `composer require fabiomez/data-extractor`
 
-Or add `fmezini/data-extractor: "*"` to required section of your composer.json file.
+Or add `fabiomez/data-extractor: "*"` to required section of your composer.json file.
 
 ## Usage
 
@@ -93,11 +93,11 @@ The extractor can be directly instantiated or created via factory
 #### Directly
 
 ```php
-use Fmezini\DataExtractor\Extractor;
-use Fmezini\DataExtractor\DocBlockParser;
-use Fmezini\DataExtractor\ValueGetters\ArrayValueGetter;
-use Fmezini\DataExtractor\ValueGetters\RegexValueGetter;
-use Fmezini\DataExtractor\ValueGetters\SubstringValueGetter;
+use Fabiomez\DataExtractor\Extractor;
+use Fabiomez\DataExtractor\DocBlockParser;
+use Fabiomez\DataExtractor\ValueGetters\ArrayValueGetter;
+use Fabiomez\DataExtractor\ValueGetters\RegexValueGetter;
+use Fabiomez\DataExtractor\ValueGetters\SubstringValueGetter;
 
 //Array extractor
 $extractor = new Extractor(
@@ -121,7 +121,7 @@ $extractor = new Extractor(
 #### Via Factory
 
 ```php
-use Fmezini\DataExtractor\ExtractorFactory;
+use Fabiomez\DataExtractor\ExtractorFactory;
 
 $factory = new ExtractorFactory();
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Fmezini\DataExtractor\ValueGetters;
+namespace Fabiomez\DataExtractor\ValueGetters;
 
 interface ValueGetterInterface
 {

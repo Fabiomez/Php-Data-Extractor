@@ -1,5 +1,5 @@
 {
-    "name": "fmezini/data-extractor",
+    "name": "fabiomez/data-extractor",
     "type": "library",
     "keywords": ["phpdoc", "data extraction"],
     "license": "MIT",
@@ -19,7 +19,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Fmezini\\DataExtractor\\": "src/",
+            "Fabiomez\\DataExtractor\\": "src/",
             "Tests\\": "tests/"
         }
     }
